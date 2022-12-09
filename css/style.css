@@ -1,0 +1,21 @@
+/** @format */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

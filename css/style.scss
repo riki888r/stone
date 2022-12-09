@@ -1,0 +1,27 @@
+/** @format */
+
+// Global Variables
+$PrimaryColor: #0f051d;
+$SecondaryColor: #fff;
+$TertiaryColor: #741ff5;
+$blueColor: #2600fc;
+$purpleColor: #ff00ea;
+$gradientColor: linear-gradient(25deg, $blueColor, $purpleColor);
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  &:hover {
+    color: #000;
+  }
+}
